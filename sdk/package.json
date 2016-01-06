@@ -1,0 +1,34 @@
+{
+  "name": "huygens-sdk",
+  "version": "1.0.0",
+  "description": "SDK for huygens framework",
+  "main": "huygens.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanni4night/huygens-sdk.git"
+  },
+  "keywords": [
+    "huygens",
+    "webcomponents"
+  ],
+  "author": "yanni4night@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanni4night/huygens-sdk/issues"
+  },
+  "homepage": "https://github.com/yanni4night/huygens-sdk",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "dateformat": "^1.0.12",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-uglify": "^0.11.0",
+    "load-grunt-tasks": "^3.4.0",
+    "time-grunt": "^1.3.0"
+  }
+}
